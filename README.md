@@ -27,7 +27,14 @@
 
 ## Client
 
-Ставим NET 9, ffmpeg скачиваем
+Ставим NET 9, ffmpeg скачиваем шарим в PATH
 
 Env создаем
+
+```
+OpenAi__OpenAiApiKey="sk-proj-REDACTED"
+Tts__GeminiTtsApiKey="sk-proj-REDACTED"
+```
+
+В конфиг json прописываем путь до библиотеки и worker
 
