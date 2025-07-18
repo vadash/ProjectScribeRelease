@@ -20,10 +20,11 @@
 9) Создайте worker https://dash.cloudflare.com/ -> Compute (workers) -> Workers & Pages -> Тут создаем новый worker типа pages и заливаем zip из пункта 7, будет ошибка
 10) Идем в Settings -> Compatibility flags -> добавляем `nodejs_compat`
 11) Добавляем от KEY1 до KEY15 из пункта 5 (цифры не важны, главное чтобы с KEYS начиналось)
+12) Добавляем PASS случайный - это ваш ключ доступа к серверу
 
 <img width="1251" height="1167" alt="image" src="https://github.com/user-attachments/assets/937651b5-0855-4c98-b24c-bf51ffb3c29e" />
 
-12) Повторно закачиваем zip файл, ошибки не будет, будет зеленая галка
+13) Повторно закачиваем zip файл, ошибки не будет, будет зеленая галка (после каждого изменения ключей нужно повторить)
 
 ## Client
 
