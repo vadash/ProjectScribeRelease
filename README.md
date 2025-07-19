@@ -34,16 +34,25 @@
 
 ## Client
 
-Ставим NET 9, ffmpeg скачиваем шарим в PATH
+1) Ставим NET 9 https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-9.0.7-windows-x64-installer (на XP не запустится)
+2) Ставим ffmpeg https://github.com/BtbN/FFmpeg-Builds/releases `ffmpeg-master-latest-win64-gpl.zip` распаковываем в папку (например, `C:\portable\ffmpeg\bin`)
+3) Добавляем в PATH
 
-.env создаем, меняем `sk-proj-REDACTED` на ключ (PASS) из 12 пункта
+<img width="222" height="274" alt="image" src="https://github.com/user-attachments/assets/25f8533d-f661-4b8a-a634-a10b41238afb" />
+
+4) Скачиваем https://github.com/vadash/ProjectScribeRelease/releases ProjectScribe_XXX.7z
+5) Распаковываем в папку (например, `C:\portable\ProjectScribe`)
+6) `.env` создаем в корне, меняем `sk-proj-REDACTED` на ключ (PASS) из 12 пункта
 
 ```
 OpenAi__OpenAiApiKey="sk-proj-REDACTED"
 Tts__GeminiTtsApiKey="sk-proj-REDACTED"
 ```
+7) Редактируем `config.json` `OpenAiApiEndpoint` (например, `https://gemini-openai-adapter-public.pages.dev/v1/chat/completions/1`) и `GeminiTtsApiEndpoint` (например, `https://gemini-openai-adapter-public.pages.dev/tts/1`). Эти адреса берем из worker settings
 
-В конфиг json прописываем путь до библиотеки и worker
+<img width="1348" height="417" alt="image" src="https://github.com/user-attachments/assets/4d79420c-b8d3-4408-bbba-02b494874d9a" />
+
+Тут же меняем путь до библиотеки `BaseLibraryDirectory` (два слеша не забываем)
 
 # Настройка
 
@@ -66,3 +75,17 @@ Tts__GeminiTtsApiKey="sk-proj-REDACTED"
 Добавить txt, fb2 на вход
 
 Добавить словарь
+
+# QnA
+
+## Все пошло по П????, хочу сбросить сохраненый прогресс конвертации
+
+1) Удаляем папку data из `ProjectScribe`
+2) Удаляем папки из библиотеки кроме 001 and 100
+
+<img width="257" height="292" alt="image" src="https://github.com/user-attachments/assets/faeee82a-062e-4ed7-a8e1-f56378521cc1" />
+
+## Если файл не конвертится возможно epub битый, парсер слабоват
+
+Ставим Sigil https://sigil-ebook.com/sigil/download открываем файл, он ругается, нажимаем ок, сохраняем
+
