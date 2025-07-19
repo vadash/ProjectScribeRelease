@@ -142,7 +142,7 @@ graph TD;
 
 ### Где сорцы, не доверяю вашему exe
 
-Правильно, проект можно запустить через https://sandboxie-plus.com/downloads/
+Правильно, проект можно запустить через https://sandboxie-plus.com/downloads/ в песочнице
 
 ## Для продвинутых: Настройки в `config.json`
 
