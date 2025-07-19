@@ -63,6 +63,8 @@ graph TD;
     <img width="1251" alt="Настройки переменных в Cloudflare" src="https://github.com/user-attachments/assets/937651b5-0855-4c98-b24c-bf51ffb3c29e" />
 8.  **Перезагрузи архив.** Вернись на главную страницу воркера и снова загрузи тот же `.zip` файл. Теперь ошибки быть не должно.
 
+<img width="1357" height="417" alt="image" src="https://github.com/user-attachments/assets/95c0569e-0e26-48ec-bcc9-c17136f61727" />
+
 ### Шаг 3: Устанавливаем всё для клиента
 
 Осталось настроить программу на твоём компьютере.
