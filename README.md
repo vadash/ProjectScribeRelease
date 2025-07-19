@@ -34,7 +34,7 @@
 
 Ставим NET 9, ffmpeg скачиваем шарим в PATH
 
-Env создаем
+.env создаем, меняем `sk-proj-REDACTED` на ключ (PASS) из 12 пункта
 
 ```
 OpenAi__OpenAiApiKey="sk-proj-REDACTED"
