@@ -8,7 +8,9 @@
 
 Прежде чем начать, зацени, что получается на выходе. Стоит ли оно твоего времени?
 
-[Пример аудиодорожки (Глава 10)](https://github.com/vadash/ProjectScribeRelease/releases/download/6.4/khameleon10-part001.opus)
+[RU пример](https://github.com/vadash/ProjectScribeRelease/releases/download/6.4/khameleon10-part001.opus)
+
+[EN пример](https://github.com/vadash/ProjectScribeRelease/releases/download/6.4/Worm_7_8-part002.opus)
 
 ## Что понадобится?
 
