@@ -10,7 +10,9 @@
 
 [RU пример](https://github.com/vadash/ProjectScribeRelease/releases/download/6.4/khameleon10-part001.opus)
 
-[EN пример](https://github.com/vadash/ProjectScribeRelease/releases/download/6.4/Worm_7_8-part002.opus)
+[EN пример (старый)](https://github.com/vadash/ProjectScribeRelease/releases/download/6.4/Worm_7_8-part002.opus)
+
+[EN пример (новый)](https://mega.nz/folder/Xy5AFBAR#1Ddiq16zyaSKi_qDOJ-Y1Q)
 
 ## Что понадобится?
 
